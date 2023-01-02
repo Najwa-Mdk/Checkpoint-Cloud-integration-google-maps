@@ -1,25 +1,5 @@
 .App {
   text-align: center;
-  margin-top : 30px;
-}
-
-* {
-  background-color: #141414;
-}
-div h1 {
-  font-weight: lighter;
-  font-family: Roboto;
-  padding-bottom: 20px;
-  color : #ffff;
-}
-
-.rate {
-  margin-right: 20px;
-}
-
-.container {
-  display: flex;
-  justify-content: space-around;
 }
 
 .App-logo {

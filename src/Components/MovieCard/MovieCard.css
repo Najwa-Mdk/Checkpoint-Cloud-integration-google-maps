@@ -1,0 +1,16 @@
+.card-movie {
+    margin-left: 2px;
+    margin-right :10px ;
+    margin-top : 60px ;
+    margin-bottom :20px ;
+    color : #ffff;
+}
+
+img {
+    height : 300px; 
+} 
+
+
+.btn {
+    margin-top : 20px;
+}
