@@ -5,7 +5,7 @@ import MovieList from './Components/MovieList/MovieList';
 import AddMovie from './Components/AddMovie/AddMovie';
 import FilterByName from './Components/FilterByName/FilterByName';
 import FilterByRate from './Components/FilterByRate/FilterByRate';
-import 'antd/dist/reset.css';
+
 
 
 
@@ -27,8 +27,18 @@ const App = () => {
             </div>
             <AddMovie add={add}/>
             <MovieList movies ={movies} inputSearch ={inputSearch} rating = {rating}/>
-        </div>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=cin%C3%A9%20path%C3%A9%20g%C3%A9ant&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                    <a href="https://www.whatismyip-address.com">
+                    </a>
+                    <a href="https://www.embedgooglemap.net">
+                    </a>
+                    </div>
+                    </div>
+                    </div>
     );
 }
 
-export default App
+export default App;

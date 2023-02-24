@@ -6,7 +6,7 @@ import MovieRating from '../Rating/Rating' ;
 const MovieCard = ({movie}) => {
   return (
     <div className='card-movie'>
-         <Card style={{ width: '18rem' }}>
+         <Card className='Cards'>
       <Card.Img variant="top" src={movie.posterUrl} />
       <Card.Body>
         <Card.Title>{movie.title}</Card.Title>
